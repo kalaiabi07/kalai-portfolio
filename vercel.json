@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/" },
+    { "source": "/projects", "destination": "/" },
+    { "source": "/projects/(.*)", "destination": "/" },
+    { "source": "/blogs", "destination": "/" }
+  ]
+}
